@@ -1,0 +1,70 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+.container {
+  width: 100%;
+  margin-top: 80px;
+  border: 1px solid silver;
+  border-radius: 20px;
+}
+h1,
+p {
+  margin: 10px 0px 0px 0px;
+  padding: 0px;
+}
+p {
+  text-align: center;
+}
+hr {
+  margin: 5px;
+}
+.form-control,
+.input-group-text {
+  font-size: 15px;
+  margin: 10px 0px;
+  padding: 5px;
+  opacity: 0.9;
+}
+.icon-today {
+  font-size: 80px;
+  margin: 20px 0px;
+}
+.icon-day {
+  text-align: center;
+  width: 100%;
+  font-size: 40px;
+  margin: 10px 0px;
+}
+.icon-hour {
+  text-align: center;
+  width: 100%;
+  font-size: 20px;
+  margin: 5px 0px;
+}
+.days,
+.hours,
+.degrees,
+.min,
+.max,
+.dash {
+  text-align: center;
+  width: 100%;
+  font-size: 15px;
+  margin: 10px 0px;
+}
+.image {
+  background-image: url(milan.jpg);
+  border-radius: 20px;
+}
+#searched-city,
+#temperature {
+  background-color: yellow;
+}
+
+#searched-city,
+#search-input {
+  text-transform: capitalize;
+}
+#basic-addon1 {
+  cursor: pointer;
+}
