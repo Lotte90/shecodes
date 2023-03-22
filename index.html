@@ -28,15 +28,15 @@
     <div class="container">
       <div class="row image">
         <div class="col-5">
-          <h1 class="city" id="searched-city">Milan</h1>
+          <h1 class="city" id="searched-city">Fagnano</h1>
           <i class="fa-solid fa-sun icon-today"></i>
         </div>
         <div class="col-7">
-          <form id="city-form">
-            <div class="input-group mb-3">
-              <button class="input-group-text" id="basic-addon1">
-                <i class="fa-solid fa-location-dot"></i>
-              </button>
+          <div class="input-group mb-3">
+            <button class="input-group-text" id="basic-addon1">
+              <i class="fa-solid fa-location-dot"></i>
+            </button>
+            <form action="search" id="city-form">
               <input
                 type="text"
                 class="form-control"
@@ -45,8 +45,8 @@
                 aria-describedby="basic-addon1"
                 id="search-input"
               />
-            </div>
-          </form>
+            </form>
+          </div>
         </div>
       </div>
       <hr />
@@ -54,7 +54,7 @@
         <div class="col-1">
           <p class="hours" id="hour">Now</p>
           <i class="fa-solid fa-cloud-sun icon-hour"></i>
-          <p class="degrees" id="temperature">8°C</p>
+          <p class="degrees" id="temperature">0°C</p>
         </div>
 
         <div class="col-1">
